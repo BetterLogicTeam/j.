@@ -1,0 +1,389 @@
+.first {
+  width: 100%;
+  background-color: rgb(0, 100, 0);
+  color: white;
+  margin: 0;
+  /* height: 47px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first span {
+  margin-left: 3rem;
+}
+
+.first_j {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.first_j audio {
+  height: 28px;
+  margin-right: 3rem;
+  /* display: inline-block; */
+}
+
+.first_j span {
+  /* margin-bottom: 30px; */
+  padding-right: 10px;
+}
+
+.first_j {
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.nav {
+  font-size: 10px;
+  background-color: rgb(243, 243, 243);
+  color: black;
+}
+
+.brand {
+  font-size: 14px;
+  margin-left: -6rem !important;
+}
+
+.flag {
+  margin-left: 3.3rem;
+  margin-right: 4rem;
+  color: black;
+}
+
+.flag img {
+  margin-left: 8px;
+  width: 17px;
+}
+
+.lenke img{
+  width: 20px;
+}
+
+.d{
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.para2{
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.six{
+  padding-left: 5px;
+}
+
+.bag {
+  font-size: 18px;
+  color: black;
+}
+
+.searc {
+  font-size: 16px;
+  margin-right: -7rem;
+  margin-left: 1rem;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  /* background-color: #111; */
+}
+
+.logo img {
+  width: 45%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+.sidenav {
+  right: 0;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.sidenav {
+  right: 0;
+}
+
+.search {
+  height: 80vh;
+  width: 100vw;
+}
+
+@media (min-width:800px) and (max-width:5000px) {
+  .full2{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:799px) {
+  
+  .nav{
+    display: none;
+  }
+
+  .ic.menu {
+    top: 110px !important;
+    color: #111 !important;
+    margin-left: -60px !important;
+  }
+
+   .ic.menu .line {
+    background-color: black !important;
+}
+}
+
+.blck{
+  background-color: black;
+  color: white;
+}
+
+.user {
+  border: 0px;
+  background-color: #fff;
+  color: black;
+}
+
+.user:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.user:active {
+  background-color: #fff;
+  color: black;
+}
+
+.forgettext {
+  position: relative;
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #ad1b3c !important;
+  text-align: center !important;
+}
+
+
+.forgettext:hover {
+  color: #ad1b3c !important;
+}
+
+.forgettext:after {
+  content: '';
+  justify-content: center !important;
+  width: 40%;
+  position: absolute;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 100px;
+  background-color: #ad1b3c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.forgettext:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+ .offcanvasbtn {
+  background-color: #ad1b3c;
+  color: white;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ad1b3c;
+}
+
+.offcanvasbtn:hover {
+  background-color: white;
+  color: #ad1b3c;
+  border-radius: 0px;
+  border: 1px solid #ad1b3c;
+
+}
+
+.offcanvasbtn2 {
+  background-color: white;
+  color: #ad1b3c;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ad1b3c;
+}
+
+.offcanvasbtn2:hover {
+  background-color: #ad1b3c;
+  ;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid #ad1b3c;
+
+}
+
+
+@media screen and (max-width:767px) {
+	.first{
+		display: flex;
+		flex-direction: column;
+		height: 100px;
+    width: auto;
+	}
+
+	.first_j{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.first_j audio{
+		height: 20px;
+    /* width: 200px; */
+		margin-right: 0;
+	}
+
+	.brand {
+		font-size: 14px;
+		margin-left: 0rem !important;
+	  }
+
+	  .lenk{
+		text-align: center !important;
+		margin: 0;
+		padding: 0;
+		line-height: 3;
+	  }
+
+    .flag2{
+      text-align: center !important;
+      margin: 0;
+      padding: 0;
+      line-height: 3;
+      }
+
+	  .logo img {
+		width: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	  }
+
+    .flag2{
+      width: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+	.first{
+		display: flex;
+		justify-content: space-around;
+		/* flex-direction: column; */
+		height: 60px;
+		/* font-size: 15px; */
+	}
+
+	.first span {
+		margin-left: 0rem;
+	}
+
+	.first_j{
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+		padding: 0;
+		/* flex-direction: column; */
+	}
+
+	.first_j audio{
+		height: 20px;
+		width: 250px;
+		margin: 0;
+	}
+
+	.brand {
+		font-size: 14px;
+		margin-left: 0rem !important;
+	  }
+
+	  .lenk{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		line-height: 3;
+	  }
+
+	  .logo img {
+		display: none;
+	  }
+}
+
+@media (min-width: 1024px) and (max-width:1440px) {
+	.logo img {
+		width: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	  }
+
+    .brand {
+      font-size: 14px;
+      margin-left: 0rem !important;
+      }
+
+      .bag{
+        margin-left: -130px;
+      }
+}

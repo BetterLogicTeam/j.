@@ -1,0 +1,57 @@
+.footer_main{
+    padding-top: 90px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255,255,255);
+}
+
+.footer_main input{
+    padding: 10px;
+}
+
+.footer_main p{
+    font-size: 15px;
+}
+
+.footer_main button{
+    padding: 5px;
+    background-color: rgb(35,35,35);
+    color: white;
+    border: 2px solid white;
+    margin-left: 8px;
+}
+
+.fcn{
+    padding: 50px;
+    background-color: rgb(35,35,35);
+    color: white;
+}
+
+.container2{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.container2 a{
+    text-decoration: none;
+    color: rgb(85,85,85);
+    font-size: 15px;
+}
+
+.container2 ul{
+    list-style: none;
+}
+
+
+.pinterest{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+
+
+
+
